@@ -1,0 +1,467 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+span{
+    color: #fbac2e;
+}
+
+/* header.......................................... */
+.logo{
+    text-align-last: center;
+}
+
+.logo img {
+    width: 7%;
+    margin: 20px 0 20px 0;
+}
+
+/* ul.menubar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menubar li {
+    padding: 0 40px;
+}
+
+
+.menubar li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+} */
+
+.menubar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.menubar a{
+    display: block;
+    color: black;
+
+}
+
+nav.nav-bar {
+    padding: 0 140px;
+}
+
+
+.menubar li :hover {
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.menubar li a img {
+    mix-blend-mode: difference;
+}
+
+/* 1st container.............................................. */
+
+.container.first .row{
+
+    margin: 50px 0 50px 0px;
+
+}
+
+.col-sm-12.first{
+    display: flex;
+}
+
+.bgimg{
+    background-image: url("../img/slider-bg.jpg");
+    /* background-color: #762828; */
+    padding: 26px 0;
+    display: flex;
+}
+
+.slideleftimg{
+    width: 100%;
+}
+
+.slideright {
+    padding: 20% 12% 0 10%;
+    color: white;
+    font-size: 19px;
+}
+
+.slideright h1 {
+    padding: 0 10% 0 0%;
+    font-size: 61px;
+}
+
+button.fbtn {
+    margin: 23px 0 0 0;
+    padding: 10px 35px 10px 35px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button.fbtn:hover {
+    margin: 23px 0 0 0;
+    padding: 10px 35px 10px 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+/* second container................................................ */
+
+.container.second .row {
+    margin: 50px 0px;
+}
+
+.container.second {
+    background-image: url("../img/service-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.secondheading {
+    text-align: center;
+    font-size: 18px;
+    padding: 17px 0 30px 0;
+
+}
+
+.col-sm-12.second{
+    display: flex;
+}
+
+.secondheading h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+img.servicesleft {
+    padding: 0 0px 0 57px;
+    width: 85%;
+    height: 100%;
+}
+
+.detail-box h4 {
+    padding: 30px 0 30px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.detail-box h4:hover {
+    padding: 30px 0 30px 0;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.row.row-cold-1.row-cols-2 {
+    margin: 50px 0px 50px 0px;
+}
+
+.services-btn {
+    text-align-last: center;
+}
+
+button.servicesbtn {
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+button.servicesbtn:hover {
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+
+/* third  container................................................ */
+
+.container.third .row {
+    margin: 50px 0px;
+}
+
+.thirdheading {
+    text-align: center;
+}
+
+.col-sm-12.tsec{
+    background-color: black;
+}
+.col-sm-12.timg {
+    display: flex;
+    padding: 76px 76px 45px 19px;
+}
+
+.col-sm-12.timg1 {
+    display: flex;
+    padding: 0 0 80px 80px;
+}
+
+img.timages1 {
+    width: 100%;
+    padding: 0 17px;
+
+}
+img.timages2 {
+    width: 100%;
+    padding: 0 17px;
+
+}
+
+
+/* four  container................................................ */
+
+.fourheading {
+    text-align-last: center;
+    padding: 50px 0 50px 0;
+
+}
+
+
+.col-sm-12.f {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: white;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fsiximg {
+    margin: 50px 50px 50px 50px;
+}
+
+/* five  container................................................ */
+
+
+
+.col-sm-8.fi {
+    padding: 90px 90px 90px 90px;
+}
+
+.col-sm-12.fi {
+    display: flex;
+    align-items: center;
+}
+.col-sm-4.fi {
+    text-align: center;
+}
+
+button.fibtn {
+    padding: 15px 70px 15px 70px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+button.fibtn:hover {
+    padding: 15px 70px 15px 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+}
+
+
+/* six  container................................................ */
+
+.container.six{
+    background-image: url("/img/agency-img.jpg");
+    background-size: cover;
+}
+
+.col-sm-12.six {
+    width: 60%;
+    /* margin: 89px 68px; */
+    padding: 75px 32px 75px 75px;
+    margin: 85px 0 0 0;
+}
+
+.sixhp {
+    /* margin: 50px 54px; */
+    /* padding: 33px; */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 70px 34px 30px 50px;
+}
+
+.sixhp h1 {
+    margin: 25px 0;
+}
+
+button.btnsix {
+    margin: 30px 0;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+button.btnsix:hover {
+    margin: 30px 0;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* sevan  container................................................ */
+
+
+.container.sevan .row {
+    margin: 90px 0 90px 0px;
+}
+
+.sevanh {
+    padding: 98px 0 60px 0;
+}
+
+.sevanh h1 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.col-sm-12.sev {
+    display: flex;
+    padding: 0;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.col-sm-8.sev{
+    background-color: whitesmoke;
+
+}
+
+.form {
+    padding: 17px 35px;
+}
+
+.form-group {
+    padding: 17px 0;
+}
+
+.formsevn {
+    text-align: center;
+    padding: 12px 0;
+}
+
+button.btnsevn {
+    padding: 10px 35px 10px 35px;
+    background-color: orange;
+    color: white;
+}
+
+button.btnsevn:hover {
+
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+
+/* eath container................................................ */
+
+.container.eath .row {
+    margin: 50px 0px;
+}
+
+.col-sm-12.eath {
+    display: flex;
+    text-align: center;
+}
+
+.eathimgon {
+    display: inline-flex;
+    padding: 10px 10px 10px 30px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.eathdownimg {
+    text-align: center;
+}
+
+/* nine container................................................ */
+
+
+
+.container.nine {
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    color: white;
+
+}
+
+.container.nine .row {
+    margin: 50px 0px;
+}
+
+.col-sm-12.nine {
+    display: flex;
+    padding: 53px 93px;
+}
+
+.nineh {
+    padding: 100px 0 20px 0;
+}
+
+img.nine1 {
+    padding: 0 10px;
+}
+
+.col-sm-3.nine {
+    padding: 0 8px 0 0px;
+    text-align: left;
+
+}
+.col-sm-3.nine h6 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 17px 0;
+}
+
+.cinfoimg img {
+    padding: 10px 0;
+}
+
+.cinfos {
+    padding: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+p.copyr {
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1.5px solid #fbac2e;
+    width: 70%;
+}
+
+
+
+/* media query................................................ */
+
+
+
