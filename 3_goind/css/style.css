@@ -1,0 +1,683 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.login-link {
+    padding: 0 40px 0 110px;
+}
+a.login {
+    color: blue;
+}
+/* .........................................navbar........................... */
+.header {
+    padding: 16px 16px 16px 16px;
+    background-color: whitesmoke;
+}
+.logoimg {
+    display: contents;
+}
+.menubar {
+    display: inline-flex;
+    float: right;
+    margin: 0 50px 0 50px;
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}
+
+.ullist {
+    display: flex;
+    list-style-type: none;
+    margin: 0 140px;
+}
+li{
+    padding: 0 15px;
+    color: #00000061;
+}
+a {
+    text-decoration: none;
+    color: #0000ff91;
+}
+
+/* .first-sectopn.............................................................................. */
+.layout_padding{
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+.first-section{
+    background-image: url(/images/banner-bg.png);
+    /* height: 100vh; */
+    padding-bottom: 90px;
+    background-size: cover;
+}
+.first{
+  text-align: center;  
+}
+.banner-heading{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+
+}
+.banner-search {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+input.banner-contant {
+    width: 50%;
+    padding: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 0px;
+    font-size: 17px;
+}
+button.banner-contant.subscribebtn {
+    padding: 16px 30px 16px 30px;
+    font-size: 17px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    color: white;
+}
+p.banner-contant {
+    width: 78%;
+    margin: 0 auto;
+    font-size: 19px;
+    color: white;
+    padding-top: 50px;
+
+}
+.subscribe-more-btn{
+    padding-top: 50px;
+
+}
+.more-btn{
+    padding: 12px 30px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+/* ...............second section......................................................... */
+.row.main-pagerow {
+    display: flex;
+}
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding: 0 30px;
+
+}
+.job {
+    width: 72%;
+    float: right;
+    padding-right: 34px;
+}
+.img1 {
+    width: 100%;
+}
+.one-banner-heading{
+    font-size: 50px;
+    color: #0c0a0a;
+    font-weight: 500;
+
+}
+p.one-banner-contant {
+    font-size: 18px;
+    color: rgb(64, 56, 56);
+    padding-top: 50px;
+
+}
+.apply-btn{
+    padding-top: 50px;
+
+}
+.apply-now-btn{
+    padding: 12px 30px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+
+/* ................................third-section...................................... */
+.job2 {
+    width: 72%;
+}
+
+/* ................................footer....................................................... */
+
+.footer.layout_padding {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: deepskyblue;
+}
+h1.footer-heading {
+    font-size: 30px;
+    color: white;
+}
+p.footer-contant {
+    font-size: 18px;
+    color: white;
+    padding-top: 40px;
+}
+.footer-search {
+    padding-top: 41px;
+}
+textarea.footer-input {
+    width: 100%;
+}
+button.footer-subscribebtn {
+    position: relative;
+    top: -60px;
+    float: right;
+    padding: 10px 70px 16px 70px;
+    margin: -9px 4px 0 0;
+    border-radius: 36px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+textarea.footer-input {
+    width: 100%;
+    padding: 18px 250px 0 28px;
+    border-radius: 35px;
+    font-size: 16px;
+}
+
+/* ........................copyryt..................................................... */
+.cpryt.section {
+    font-size: 20px;
+    padding: 20px 86px;
+}
+
+.container-cpryt {
+    width: 84%;
+    margin: 0 auto;
+}
+p.cpryt-p {
+    float: right;
+}
+/* /////////////////////.................................media qurey...........////////////////// */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .job {
+        width: 100%;
+    }
+    .job2 {
+        width: 100%;
+    }
+    .apply-btn {
+        padding-top: 0;
+    }
+    p.one-banner-contant {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 16px;
+
+    }
+    .one-banner-heading {
+        font-size: 34px;
+    }
+    p.cpryt-p {
+        float: right;
+    }
+    .cpryt{
+        text-align: center;
+    }
+    .container-cpryt {
+        width: 100%;
+    }
+    .col-md-6.cpryt {
+        font-size: 13px;
+    }
+    .col-md-6 {
+        padding: 8px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .banner-heading {
+        font-size: 51px;
+    }
+    .banner-search {
+        width: 100%;
+    }
+    p.banner-contant {
+        width: 100%;
+    }
+    input.banner-contant {
+        width: 100%;
+    }
+   
+    .job {
+        width: 100%;
+    }
+    .job2 {
+        width: 100%;
+    }
+    .apply-btn {
+        padding-top: 0;
+    }
+    p.one-banner-contant {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 16px;
+
+    }
+    .one-banner-heading {
+        font-size: 34px;
+    }
+    .col-md-6.cpryt {
+        font-size: 11px;
+        padding: 0;
+    }
+    p.cpryt-p {
+        float: right;
+    }
+    .cpryt.section {
+        padding: 20px 0;
+    }
+    .col-md-6 {
+        padding: 8px;
+    }
+    .login-link {
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .banner-heading {
+        font-size: 45px;
+    }
+    .banner-search {
+        width: 100%;
+    }
+    p.banner-contant {
+        width: 100%;
+        font-size: 15px;
+
+    }
+    input.banner-contant {
+        width: 100%;
+    }
+    button.apply-now-btn {
+        margin-bottom: 20px;
+    }
+    .container-cpryt {
+        width: 100%;
+    }
+    .col-md-6.cpryt {
+        font-size: 13px;
+        text-align-last: center;
+    }
+    p.cpryt-p {
+        float: none;
+    }
+    .job {
+        width: 100%;
+    }
+    .job2 {
+        width: 100%;
+    }
+    .apply-btn {
+        padding-top: 0;
+    }
+    p.one-banner-contant {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 16px;
+
+    }
+    .one-banner-heading {
+        font-size: 34px;
+    }
+    .col-md-6 {
+        font-size: 11px;
+    }
+    
+    button.footer-subscribebtn {
+        padding: 9px 50px 16px 50px;
+}
+.login-link {
+    display: none;
+}
+}
+@media (max-width: 575px){
+.banner-heading {
+    font-size: 23px;
+}
+.banner-search {
+    width: 100%;
+}
+input.banner-contant {
+    width: 100%;
+}
+p.banner-contant {
+    width: 100%;
+    font-size: 16px;
+}
+.job {
+    width: 100%;
+}
+.job2 {
+    width: 100%;
+}
+.one-banner-heading {
+    font-size: 35px;
+}
+.apply-btn {
+    padding-top: 9px;
+}
+p.one-banner-contant {
+    font-size: 15px;
+    color: rgb(64, 56, 56);
+    padding-top: 29px;
+}
+button.apply-now-btn {
+    margin-bottom: 20px;
+}
+.col-md-6.cpryt {
+    font-size: 14px;
+    padding: 0;
+    text-align-last: center;
+
+}
+p.cpryt-p {
+    float: none;
+}
+.cpryt.section {
+padding: 20px;
+}
+.login-link {
+    display: none;
+}
+}
+@media (max-width: 447px){
+    button.footer-subscribebtn {
+        padding: 10px 20px 16px 20px;
+    }
+    textarea.footer-input {
+        padding: 18px 131px 0 28px;
+    }
+    .login-link {
+        display: none;
+    }
+}
+/* .......................................second-page.......................................... */
+
+.page-layout {
+    padding: 100px 0;
+}
+.section-one{
+    background-image: url(/images/search_bg.png);
+    background-size: cover;
+}
+.logo {
+    text-align-last: center;
+}
+.row.jobsec {
+    padding-top: 90px;
+}
+.search-location {
+    display: flex;
+    padding-top: 96px;
+}
+h6.search-heading {
+    color: white;
+    font-size: 28px;
+    padding-top: 10px;
+}
+p.search-para {
+    color: white;
+    padding-top: 6px;
+}
+input.search-input {
+    width: 86%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 43px;
+    border: 0;
+    padding-left: 12px;
+}
+.input-group-apend {
+    margin-left: -3px;
+}
+button.jsearch-btn {
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+    background-color: #6c757d;
+    position: absolute;
+
+}
+.job-btn {
+    padding-top: 60px;
+    text-align: center;
+}
+button.find-job {
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px){
+    .search-location {
+        display: contents;
+}
+}
+
+
+/* .................................recuirments-page.......................... */
+
+
+.section-rec{
+    background-image: url(/images/banner-bg.png);
+}
+.recruiter-head {
+    text-align: center;
+    padding: 24px 0;
+}
+h1.recruiter-heading {
+    font-size: 47px;
+    color: white;
+}
+.section-rec2{
+    background-color: rgb(0 123 255 / 16%);
+    margin: 80px 0 0 0;
+}
+.recruiter-search {
+    padding: 43px 0;
+}
+button.Search-rec {
+    font-size: 19px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 30px;
+    color: white;
+    background-color: #36bbe9;
+    margin-right: 10px;
+}
+button.Search-rec-email {
+    font-size: 19px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 30px;
+    color: white;
+    background-color: #212529;
+}
+.col-sm-12.rec-job {
+    display: flex;
+    padding-top: 50px;
+}
+.col-sm-2.rec-jobcount{
+    align-self: center;
+
+}
+a.count {
+    padding: 18px 21px;
+    background-color: #007bff;
+    font-size: 27px;
+    border-radius: 47px;
+    color: white;
+    text-decoration: none;
+}   
+a.count.active
+{    background-color: black;
+    color: white;
+}
+a.count:hover{
+    background-color:black;
+    color: white;
+}
+h1.rec-job-head {
+    color: #007bff85;
+}
+button.rec-jobbtn {
+    padding: 8px 26px;
+    background-color: #007bff85;
+    font-size: 21px;
+    border-radius: 47px;
+    color: white;
+    text-decoration: none;
+    border: 0;
+}
+.btn-line {
+    width: 95%;
+    border-bottom: 4px solid #c3c3c2;
+    margin: 0 auto;
+}
+/* ..............................................companies-page...................................................... */
+
+.com-headdiv {
+    width: 41%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 5px solid #46c3f3;
+}
+h1.com-heading {
+    font-size: 51px;
+    padding-bottom: 8px;
+}
+.col-sm-12.com-maind {
+    display: flex;
+}
+img.com-img {
+    width: 100%;
+    height: 188px;
+}
+.com-para {
+    margin: 60px 15px 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+/* ............................................services-page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.sevicesd {
+    text-align: center;
+    padding: 4px;
+}
+h6.ser-h {
+    font-size: 29px;
+    margin: 18px 0;
+}
+p.ser-p {
+    font-size: 14px;
+    padding: 0 13px;
+}
+button.ser-joinbtn {
+    padding: 10px 30px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+button.ser-joinbtn:hover{
+    padding: 10px 30px;
+    font-size: 19px;
+    background-color: #46c3f3;
+    color: white;
+    margin-top: 10px;
+    border: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    img.com-img{
+        width: 100px;
+    }
+}
+/* ............................................login-page.................................................. */
+form.frm {
+    width: 43%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 21px 21px;
+    border-radius: 18px;
+}
+h6.log-in {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 0;
+}
+.inp {
+    width: 100%;
+    border-radius: 30px;
+    height: 51px;
+    border: 1px solid #0000002e;
+    padding-left: 25px;
+}
+.social {
+    width: 100%;
+    margin: 15px 0;
+    height: 46px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+button.logbtn.social {
+    background-color: #2969dc;
+    margin-bottom: 25px;
+
+}
+button.gbtn.social {
+    background-color: #b00b1c;
+    margin-bottom: 8px;
+}
+button.fbtn.social {
+    background-color: #060636d4;
+    margin: 0px;
+    
+}
+input.mail-id.inp {
+    margin: 15px 0;
+}
+.check {
+    margin: 14px 0;
+    font-size: 16px;
+}
+label {
+    margin: 0 8px;
+}
+.loginbtn {
+    border-bottom: 2px solid #00000024;
+    margin-bottom: 13px;
+}
+.section.login-section {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    padding: 80px 0;
+}
+.login-section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
