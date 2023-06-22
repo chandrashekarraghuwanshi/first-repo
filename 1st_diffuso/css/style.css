@@ -490,7 +490,7 @@ p.copyr {
       font-size: 15px;
   }
    .slideright{
-         padding: 0;
+    padding-top: 5px;
      }
      .slideleftimg{
       padding: 10px;
@@ -561,8 +561,8 @@ p.copyr {
         font-size: 8px;
     }
      .slideright{
-           padding: 0;
-       }
+        padding-top: 5px;
+    }
        .slideleftimg{
         padding: 10px;
        }  
